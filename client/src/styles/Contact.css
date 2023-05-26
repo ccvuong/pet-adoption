@@ -1,0 +1,78 @@
+.body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact {
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: 202020;
+
+}
+
+.contact {
+    width: 100%;
+    padding-top: 55px;
+    padding-bottom: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.contact h2 {
+    font-size: 80px;
+    color: #6886ab;;
+    height: 50px;
+}
+
+
+.summary {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.summary .contactMe {
+    list-style: none;
+    width: 60%;
+}
+
+.contactMe span {
+    font-size: 20px;
+}
+
+.contactMe {
+    font-size: large;
+}
+
+.contactMe #email {
+    color: #23b2ed;
+}
+
+.contactMe #email:hover {
+    color: #FF9800;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact h2 {
+        font-size: 40px;
+    }
+
+    .summary {
+        text-align: center;
+    }
+
+    .contactMe {
+        padding: 0;
+    }
+
+    .summary h2 {
+        font-size: 30px;
+    }
+}
