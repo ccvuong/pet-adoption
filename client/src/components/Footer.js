@@ -1,9 +1,9 @@
 import React from 'react';
 import "../styles/Footer.css";
+import { Link } from 'react-router-dom';
 
 // social media links
 import PetsIcon from '@mui/icons-material/Pets';
-import { Link } from '@mui/material';
 
 
 function Footer() {
@@ -12,10 +12,12 @@ function Footer() {
             <div className='socialMedia'>
                 <PetsIcon />
                 <p className='footer-links'>
-                    <Link to="/"> Home </Link>
-                    <Link to="/adopt"> Adopt </Link>
-                    <Link to="/contact"> Contact </Link>
-                    <Link to="/donate"> Donate </Link>
+
+                    <Link to="/" id='homeBtn'> Home </Link>
+                    <Link to="/adopt" id='adoptBtn'> Adopt </Link>
+                    <Link to="/contact" id='contactBtn'> Contact </Link>
+                    <Link to="/donate" id='donateBtn'> Donate </Link>
+
                 </p>
             </div>
 
