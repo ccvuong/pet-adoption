@@ -4,6 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 
 export default function petList({ name, image, type }) {
   return (
@@ -41,6 +42,7 @@ export default function petList({ name, image, type }) {
             <Button size="small" color="primary">
               <p className='petBtn'>Check me out!</p>
             </Button>
+            <FavoriteIcon id='heartIcon'/>
           </CardActions>
 
         </Card>

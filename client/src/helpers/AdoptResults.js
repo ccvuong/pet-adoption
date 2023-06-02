@@ -24,7 +24,7 @@ export const AdoptResults = [
     {
         name: "Peanut",
         image: Peanut,
-        type: 'Peanut will be your next adventure buddy. He will scout and protect from any danger, especially leaves!'
+        type: 'Peanut will be your next adventure buddy. He will scout and protect you from any danger, especially leaves!'
     },
     {
         name: "Thor",

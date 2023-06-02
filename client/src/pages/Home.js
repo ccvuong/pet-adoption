@@ -49,7 +49,7 @@ function Home() {
         {/* Dog Selection */}
         <div className='cardInfo'>
           
-          <Link to="" style={{ textDecoration: 'none' }}>
+          <Link to="/dogcategory" style={{ textDecoration: 'none' }}>
 
             <Card sx={{ maxWidth: 345 }}>
               <CardActionArea>
