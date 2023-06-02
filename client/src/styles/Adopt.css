@@ -1,0 +1,59 @@
+.adoptPage {
+    font-family: "Arial", sans-serif;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.adoptPage .title {
+    color: #202020;
+    font-size: 3em;
+}
+
+.petListings {
+    width: 70vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+/* main info */
+
+.imageCard {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+    .projectList {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .projectList {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .projectList {
+        width: 100%;
+    }
+
+    .projectItem {
+        width: 300px;
+        height: 300px;
+    }
+}

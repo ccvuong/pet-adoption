@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css'; 
+import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 
@@ -22,7 +22,6 @@ function App() {
       <Router>
         <Navbar />
 
-
         <Routes>
           <Route
             path="/"
@@ -41,7 +40,6 @@ function App() {
             element={<Donate />}
           />
         </Routes>
-
 
         <Footer />
       </Router>

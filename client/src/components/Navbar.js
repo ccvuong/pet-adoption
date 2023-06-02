@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import "../styles/Navbar.css";
 import MenuIcon from '@mui/icons-material/Menu';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 
 function Navbar() {
     const [expandNavbar, setExpandNavbar] = useState(false);
@@ -22,15 +24,25 @@ function Navbar() {
                     <MenuIcon />
                 </button>
             </div>
+
             <div className='links'>
 
-                <Link to="/"> Home </Link>
-                <Link to="/adopt"> Adopt </Link>
-                <Link to="/contact"> Contact </Link>
-                <Link to="/donate"> Donate </Link>
+                <Link to="/" id='homeBtn'> Home </Link>
+                <Link to="/adopt" id='adoptBtn'> Adopt </Link>
+                <Link to="/contact" id='contactBtn'> Contact </Link>
+                <Link to="/donate" id='donateBtn'> Donate </Link>
 
             </div>
+
+            <div className='userProfile'>
+                <FavoriteIcon />
+                <Link to="/signup" id='signUpBtn'>Sign Up </Link>
+                <Link to="/signin" id='signInBtn'> Log In <AccountCircleIcon /> </Link>
+
+            </div>
+
         </div>
+
     );
 }
 
