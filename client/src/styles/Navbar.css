@@ -18,7 +18,7 @@
   color: white;
   text-decoration: none;
   margin: 20px;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .navbar a:hover {
@@ -41,6 +41,10 @@
 .userProfile svg:hover {
   cursor: pointer;
   color: #FF9800;
+}
+
+#signInBtn {
+  padding: 0px;
 }
 
 .signIn svg {

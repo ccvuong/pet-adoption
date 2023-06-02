@@ -36,8 +36,9 @@ function Navbar() {
 
             <div className='userProfile'>
                 <FavoriteIcon />
-                <Link to="/signup" id='signUpBtn'>Sign Up </Link>
-                <Link to="/signin" id='signInBtn'> Log In <AccountCircleIcon /> </Link>
+                <Link to="/signup" id='signUpBtn'> Sign Up </Link>
+                <Link to="/signin" id='signInBtn'> Sign In  </Link>
+                <AccountCircleIcon />
 
             </div>
 

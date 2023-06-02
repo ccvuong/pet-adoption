@@ -5,7 +5,7 @@ import SearchIcon from '@mui/icons-material/Search';
 function SearchBar() {
     return (
 
-        <form classname='SearchArea' action="/" method="get">
+        <form classname='SearchArea' id="SearchArea" action="/" method="get">
             <label htmlFor="header-search">
                 <span className="visually-hidden"></span>
             </label>
