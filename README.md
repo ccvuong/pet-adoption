@@ -15,6 +15,7 @@ Search for your next companion here today!
 ```
 
 ## Preview  📷
+![Pet Adoption Preview](https://github.com/ccvuong/pet-adoption/assets/116984891/8552b614-b504-4da6-8eab-aebbb6407882)
 
 ## Contributors
 [😎 Christina Vuong ](https://github.com/ccvuong)
