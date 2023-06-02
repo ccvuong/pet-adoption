@@ -11,6 +11,7 @@ import pets from '../assets/banner-image.jpg'
 import dog from '../assets/dog.jpg';
 import cat from '../assets/cat.jpg';
 import otherPet from '../assets/other pet.jpg';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -21,11 +22,13 @@ function Home() {
       <header style={{ paddingLeft: 0 }}>
         <div
           className='bannerImage'
-          style={{ backgroundImage: `url("${pets}")`, 
-          height: 400, 
-          display: 'flex', 
-          alignItems: 'center', 
-          justifyContent: 'center' }}
+          style={{
+            backgroundImage: `url("${pets}")`,
+            height: 400,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
+          }}
         >
           <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
             <div className='d-flex justify-content-center align-items-center h-100'>
@@ -38,32 +41,35 @@ function Home() {
         </div>
       </header>
 
-      <h1 className='categories-title'> Check out to see local pets nearby: </h1>
+      <h1 className='categories-title'> Have someone in mind? </h1>
 
       {/* categories to select dogs, cats, other pets */}
       <div className='categories'>
 
         {/* Dog Selection */}
         <div className='cardInfo'>
+          
+          <Link to="" style={{ textDecoration: 'none' }}>
 
-          <Card sx={{ maxWidth: 345 }}>
-            <CardActionArea>
-              <CardMedia className='petSelect'
-                component="img"
-                image={dog}
-                alt="dog image"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Dogs
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
+            <Card sx={{ maxWidth: 345 }}>
+              <CardActionArea>
+                <CardMedia className='petSelect'
+                  component="img"
+                  image={dog}
+                  alt="dog image"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                    Dogs
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
 
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-          </Card>
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
 
+          </Link>
         </div>
 
         {/* Cat Selection */}

@@ -3,13 +3,18 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 
+// page links
 import Home from './pages/Home';
 import Adopt from './pages/Adopt';
 import Contact from './pages/Contact';
 import Donate from './pages/Donate';
 
+// component links
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import SignIn from './components/SignIn';
+import SignUp from './components/SignUp';
+
 
 const client = new ApolloClient({
   uri: '/graphql',
@@ -39,6 +44,19 @@ function App() {
             path="/donate"
             element={<Donate />}
           />
+
+          <Route
+            path="/signin"
+            element={<SignIn />}
+          />
+
+          <Route
+            path="/signup"
+            element={<SignUp />}
+          />
+
+
+
         </Routes>
 
         <Footer />
