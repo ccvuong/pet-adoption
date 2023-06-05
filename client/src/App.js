@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Adopt from './pages/Adopt';
 import Contact from './pages/Contact';
 import Donate from './pages/Donate';
+import DogCategory from './pages/DogCategory';
 
 // component links
 import Navbar from './components/Navbar';
@@ -55,7 +56,10 @@ function App() {
             element={<SignUp />}
           />
 
-
+          <Route
+            path="/dogcategory"
+            element={<DogCategory />}
+          />
 
         </Routes>
 
