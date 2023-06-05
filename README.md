@@ -2,7 +2,8 @@
 Search for your next companion here today!
 
 ## Deployed Link 🔥
-(TBA)
+Github Repository:
+https://github.com/ccvuong/pet-adoption
 
 ## User Story  ✏
 ```As a Potential pet owner , I want to adopt a pet from shelter , so i can provide a loving home in need
@@ -12,6 +13,8 @@ Search for your next companion here today!
 ```
 
 ## Acceptance Criteria ✅
+
+
 ```
 
 ```
