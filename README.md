@@ -5,7 +5,9 @@ Search for your next companion here today!
 (TBA)
 
 ## User Story  ✏
-```
+```As a Potential pet owner , I want to adopt a pet from shelter , so i can provide a loving home in need
+   To achieve this goal , I need a pet adoption platform that can help me 
+   To meet and interact with the pet , Complete adoption paperwork and Take the pet home
 
 ```
 
