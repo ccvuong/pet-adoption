@@ -12,6 +12,19 @@ Search for your next companion here today!
 ```
 
 ## Acceptance Criteria ✅
+  `GIVEN A Pet Adoption Platform input form
+   WHEN I search for a pet
+   THEN FIRST I need to sign up to make the account
+   THEN AFTER creating my account i need to SIGN IN
+   THEN I Search with city and zipcode nearby pet adoption Platform
+   IT ALLOWS us to search for pets based on their preferences, such as
+   location,breed,size,age,gender and temperament.
+   THEN WE have contact option to contact through email and phone.It
+   provides online resources that users can access , including FAQ's ,pet care tips and
+   advice on behavior training
+   THEN IT has a DONATE option can use to help them in their needy things
+   THEN IT ALSO has smooth payment process. It should provide clear information
+   on fees online , payment options and refund policies
 ```
 
 ```
