@@ -5,27 +5,44 @@ Search for your next companion here today!
 (TBA)
 
 ## User Story  ✏
-```As a Potential pet owner , I want to adopt a pet from shelter , so i can provide a loving home in need
-   To achieve this goal , I need a pet adoption platform that can help me 
-   To meet and interact with the pet , Complete adoption paperwork and Take the pet home
+```As a Potential pet owner
+
+   As a potential pet owner, 
+   
+   I want to adopt a pet from shelter, 
+   
+   So I can provide a loving home in need,
+   
+   To achieve this goal, I need a pet adoption platform that can help me 
+   
+   To meet and interact with the pet, Complete adoption paperwork and Take the pet home
 
 ```
 
 ## Acceptance Criteria ✅
-  `GIVEN A Pet Adoption Platform input form
+```AS a user GIVEN A Pet Adoption Platform input form
+
+   AS a user I will be GIVEN a Pet Adoption Platform input form
+   
    WHEN I search for a pet
-   THEN FIRST I need to sign up to make the account
+ 
+   I WILL NEED to sign up to make the account
+   
    THEN AFTER creating my account i need to SIGN IN
+   
    THEN I Search with city and zipcode nearby pet adoption Platform
-   IT ALLOWS us to search for pets based on their preferences, such as
-   location,breed,size,age,gender and temperament.
-   THEN WE have contact option to contact through email and phone.It
-   provides online resources that users can access , including FAQ's ,pet care tips and
-   advice on behavior training
+   
+   IT ALLOWS us to search for pets based on their preferences, such as location, breed, size, age, gender and temperament
+   
+   THEN WE have contact option to contact through email and phone
+   
+   IT WILL provide online resources that users can access, including FAQ's, pet care tips and advice on behavior training
+   
    THEN IT has a DONATE option can use to help them in their needy things
-   THEN IT ALSO has smooth payment process. It should provide clear information
-   on fees online , payment options and refund policies
-```
+   
+   THEN IT ALSO has smooth payment process. 
+   
+   IT WILL provide clear informationon fees online , payment options and refund policies
 
 ```
 
