@@ -2,8 +2,11 @@
   "name": "pet-adoption",
   "version": "1.0.0",
   "description": "Find a furry friend a home and family! 🐾",
+  "homepage": "https://ccvuong.github.io/pet-adoption",
   "main": "server/server.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node server/server.js --ignore client",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
@@ -23,5 +26,7 @@
   "bugs": {
     "url": "https://github.com/ccvuong/pet-adoption/issues"
   },
-  "homepage": "https://github.com/ccvuong/pet-adoption#readme"
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
